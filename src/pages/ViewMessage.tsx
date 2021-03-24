@@ -56,15 +56,27 @@ function ViewMessage() {
 
             <div className="ion-padding">
               <h1>{message.subject}</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
+              <p>{message.poem}</p>
+              
+              {/* <p>
+              
+Y por eso debes su mal aliviar.
+Como pretenden que yo,
+Que lo críe de potrillo
+Clave en su pecho un cuchillo
+Porque el patrón lo ordeno;
+Déjenlo no más pastar
+No rechace mi consejo
+Que yo lo voy a enterrar
+Cuando se muera de viejo. (bis)
+Junto al estero del bajo
+Lo encontré tendido
+Casi al expirar
+Me acerque muy lentamente
+Y se lo quise explicar
+Pero al verlo resignado.
+Me tembló la mano
+              </p> */}
             </div>
           </>
         ) : (
