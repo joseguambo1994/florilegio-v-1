@@ -9,15 +9,15 @@ export interface Message {
 
 const messages: Message[] = [
   {
-    fromName: 'El corralero',
-    subject: 'El corralero',
-    date: '24/03/2021',
+    fromName: 'Caballeria Blindada Ecuatoriana',
+    subject: '',
+    date: '',
     id: 0, 
-    poem: 'Está muy malo el corralero Allá en el potrero,\
-    como viejo está, Hay que ayudarlo a que muera Para que no sufra más,\
-    Siempre fuiste el más certero\
-    Y por eso debes su mal aliviar.\
-    Como pretenden que yo,\
+    poem: 'Está muy malo el corralero Allá en el potrero,\n\
+    como viejo está, Hay que ayudarlo a que muera Para que no sufra más,\n\
+    Siempre fuiste el más certero\n\
+    Y por eso debes su mal aliviar.\n\
+    Como pretenden que yo,\n\
     Que lo críe de potrillo\
     Clave en su pecho un cuchillo\
     Porque el patrón lo ordeno;\
@@ -25,26 +25,29 @@ const messages: Message[] = [
     No rechace mi consejo\
     Que yo lo voy a enterrar\
     Cuando se muera de viejo. (bis)' ,
-    image_route: '/assets/imagenes/imagen2.png'
+    image_route: '/assets/imagenes/image2_2.png'
   },
   {
-    fromName: 'Caballero Blindada Ecuatoriana',
-    subject: 'Caballero Blindada Ecuatoriana',
-    date: '6:12 AM',
+    fromName: 'Caballeria Blindada Ecuatoriana',
+    subject: '',
+    date: '',
     id: 1,
-    poem: 'Somos de Caballería blindada\
-    Arma noble y sin igual\
-    Nuestro lema es el trabajo\
+    poem: 'Somos de Caballería blindada \n \
+    Arma noble y sin igual\n \
+    Nuestro lema es el trabajo\n \
     Por un grandioso Ecuador.',
     image_route: '/assets/imagenes/imagen3.png'
 
   },
   {
     fromName: 'Arma Ligera',
-    subject: 'Arma Ligera',
+    subject: '',
     date: '',
     id: 2,
-    poem:'',
+    poem: 'Somos de Caballería blindada \n\
+    Arma noble y sin igual \n \
+    Nuestro lema es el trabajo \n \
+    Por un grandioso Ecuador.',
     image_route: '/assets/imagenes/imagen4.png'
 
   }

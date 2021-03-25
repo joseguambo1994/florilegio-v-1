@@ -9,6 +9,7 @@ import {
   IonItem,
   IonLabel,
   IonNote,
+  IonImg,
   IonPage,
   IonToolbar,
   useIonViewWillEnter,
@@ -32,54 +33,37 @@ function ViewMessage() {
       <IonHeader translucent>
         <IonToolbar>
           <IonButtons>
-            <IonBackButton text="Inbox" defaultHref="/home"></IonBackButton>
+            <IonBackButton text="Florilegio" defaultHref="/home"></IonBackButton>
           </IonButtons>
         </IonToolbar>
       </IonHeader>
 
-      <IonContent fullscreen>
+      
+      
+      <IonContent fullscreen >
         {message ? (
           <>
             <IonItem>
-              <IonIcon icon={personCircle} color="primary"></IonIcon>
+              {/* <IonIcon icon={personCircle} color="primary"></IonIcon> */}
               <IonLabel className="ion-text-wrap">
                 <h2>
                   {message.fromName}
-                  <span className="date">
+                  {/* <span className="date">
                     <IonNote>{message.date}</IonNote>
-                  </span>
+                  </span> */}
                 </h2>
-                <h3>
+                {/* <h3>
                   To: <IonNote>Me</IonNote>
-                </h3>
+                </h3> */}
               </IonLabel>
             </IonItem>
 
-            <div className="ion-padding" style={{ 'backgroundImage': 'url('+message.image_route+')'}}>
+            <div className="ion-padding" style={{ 'background': 'url('+message.image_route+')','backgroundRepeat':'no-repeat' ,'backgroundSize':'contain','backgroundColor':'rgba(0, 0, 0, 0.2)','backgroundPosition':'center'}}>
          
            
               <h1>{message.subject}</h1>
               <p>{message.poem}</p>
-              
-              {/* <p>
-              
-Y por eso debes su mal aliviar.
-Como pretenden que yo,
-Que lo críe de potrillo
-Clave en su pecho un cuchillo
-Porque el patrón lo ordeno;
-Déjenlo no más pastar
-No rechace mi consejo
-Que yo lo voy a enterrar
-Cuando se muera de viejo. (bis)
-Junto al estero del bajo
-Lo encontré tendido
-Casi al expirar
-Me acerque muy lentamente
-Y se lo quise explicar
-Pero al verlo resignado.
-Me tembló la mano
-              </p> */}
+             
             </div>
           </>
         ) : (
