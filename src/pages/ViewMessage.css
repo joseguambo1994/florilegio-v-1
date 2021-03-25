@@ -42,9 +42,23 @@
   white-space: pre;
 }
 
-
+#view-message-page ion-image {
+  position: absolute;
+  opacity: 0.5;
+}
 
 #view-message-page .ion-padding{
   /* --background: url('../imagenes/imagen2.png');
   background-image: url('../imagenes/imagen2.png'); */
+}
+
+#view-message-page .container {
+  position: relative;
+}
+
+#view-message-page .center {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+   transform: translate(-50%, -0%); 
 }

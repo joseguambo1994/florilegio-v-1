@@ -58,11 +58,21 @@ function ViewMessage() {
               </IonLabel>
             </IonItem>
 
-            <div className="ion-padding" style={{ 'background': 'url('+message.image_route+')','backgroundRepeat':'no-repeat' ,'backgroundSize':'contain','backgroundColor':'rgba(0, 0, 0, 0.2)','backgroundPosition':'center'}}>
-         
-           
+            {/* <div className="ion-padding" style={{ 'background': 'url('+message.image_route+')','backgroundRepeat':'no-repeat' ,'backgroundSize':'contain','backgroundColor':'rgba(0, 0, 0, 0.2)','backgroundPosition':'center'}}>
+          */}
+            <div className="ion-padding" >
+
+            <div className="container">
+            <IonImg className="poemimage" src={message.image_route} ></IonImg>
+              <div className="center">
               <h1>{message.subject}</h1>
               <p>{message.poem}</p>
+              </div>
+            </div>
+
+
+            
+             
              
             </div>
           </>
