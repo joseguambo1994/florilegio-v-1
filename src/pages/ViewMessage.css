@@ -38,4 +38,9 @@
 #view-message-page p {
   line-height: 22px;
   text-align: center;
+  
+}
+#view-message-page .ion-padding{
+  /* --background: url('../imagenes/imagen2.png');
+  background-image: url('../imagenes/imagen2.png'); */
 }

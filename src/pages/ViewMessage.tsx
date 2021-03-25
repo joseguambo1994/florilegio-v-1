@@ -16,6 +16,7 @@ import {
 import { personCircle } from 'ionicons/icons';
 import { useParams } from 'react-router';
 import './ViewMessage.css';
+import { url } from 'node:inspector';
 
 function ViewMessage() {
   const [message, setMessage] = useState<Message>();
@@ -25,7 +26,7 @@ function ViewMessage() {
     const msg = getMessage(parseInt(params.id, 10));
     setMessage(msg);
   });
-
+  const ruta: string = "../imagenes/imagen2.png"
   return (
     <IonPage id="view-message-page">
       <IonHeader translucent>
@@ -54,7 +55,9 @@ function ViewMessage() {
               </IonLabel>
             </IonItem>
 
-            <div className="ion-padding">
+            <div className="ion-padding" style={{ 'backgroundImage': 'url('+message.image_route+')'}}>
+         
+           
               <h1>{message.subject}</h1>
               <p>{message.poem}</p>
               

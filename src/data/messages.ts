@@ -25,7 +25,7 @@ const messages: Message[] = [
     No rechace mi consejo\
     Que yo lo voy a enterrar\
     Cuando se muera de viejo. (bis)' ,
-    image_route: '../imagenes/imagen1.png'
+    image_route: '/assets/imagenes/imagen2.png'
   },
   {
     fromName: 'Caballero Blindada Ecuatoriana',
@@ -36,19 +36,16 @@ const messages: Message[] = [
     Arma noble y sin igual\
     Nuestro lema es el trabajo\
     Por un grandioso Ecuador.',
-    image_route: '../imagenes/imagen1.png'
+    image_route: '/assets/imagenes/imagen3.png'
 
   },
   {
     fromName: 'Arma Ligera',
     subject: 'Arma Ligera',
-    date: '4:55 AM',
+    date: '',
     id: 2,
-    poem:'Arma ligera que transpone montes,\
-    Caudal profundo, de valor y gloria,\
-    Estrella guía en nuevos horizontes,\
-    Por el camino de la luz y la victoria.',
-    image_route: '../imagenes/imagen1.png'
+    poem:'',
+    image_route: '/assets/imagenes/imagen4.png'
 
   }
 ];
