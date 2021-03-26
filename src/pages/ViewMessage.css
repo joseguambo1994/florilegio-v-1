@@ -43,7 +43,8 @@
 }
 
 #view-message-page ion-image {
-  position: absolute;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
   opacity: 0.5;
 }
 
