@@ -3,6 +3,8 @@ import { IonApp, IonRouterOutlet } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import Home from './pages/Home';
 import ViewMessage from './pages/ViewMessage';
+import AnthemsMenu from './pages/AnthemsMenu';
+import HomeMenu from './pages/MainMenu';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -30,7 +32,16 @@ const App: React.FC = () => (
         <Route path="/" exact={true}>
           <Redirect to="/home" />
         </Route>
+        {/* <Route path="/home" exact={true}>
+          <MainMenu2 />
+        </Route> */}
+        <Route exact={true}>
+          <HomeMenu />
+        </Route>
         <Route path="/home" exact={true}>
+          <AnthemsMenu />
+        </Route>
+        <Route path="/himnos" exact={true}>
           <Home />
         </Route>
         <Route path="/message/:id">
