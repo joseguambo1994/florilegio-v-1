@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Song, getSong } from '../data/songs';
+import { Toast, getToast } from '../data/toasts';
 import {
   IonBackButton,
   IonButtons,
@@ -19,15 +19,14 @@ import { useParams } from 'react-router';
 import './ViewMessage.css';
 import { url } from 'node:inspector';
 
-function ViewSong() {
-  const [song, setSong] = useState<Song>();
+function ViewToast() {
+  const [toast, setToast] = useState<Toast>();
   const params = useParams<{ id: string }>();
 
   useIonViewWillEnter(() => {
-    const sng = getSong(parseInt(params.id, 10));
-    setSong(sng);
+    const tost = getToast(parseInt(params.id, 10));
+    setToast(tost);
   });
-  
   return (
     <IonPage id="view-message-page">
       <IonHeader translucent>
@@ -41,13 +40,13 @@ function ViewSong() {
       
       
       <IonContent fullscreen >
-        {song ? (
+        {toast ? (
           <>
             <IonItem>
               {/* <IonIcon icon={personCircle} color="primary"></IonIcon> */}
               <IonLabel className="ion-text-wrap">
                 <h2>
-                  {song.text}
+                  {toast.text}
 
                 </h2>
 
@@ -56,8 +55,8 @@ function ViewSong() {
 
             <div className="ion-padding" >
          
-              <h1>{song.content}</h1>
-              <p>{song.content}</p>        
+              <h1>{toast.content}</h1>
+              <p>{toast.content}</p>        
             </div>
           </>
         ) : (
@@ -68,4 +67,4 @@ function ViewSong() {
   );
 }
 
-export default ViewSong;
+export default ViewToast;

@@ -29,6 +29,8 @@ import SongsMenu from './pages/SongsMenu';
 import ViewSong from './pages/ViewSong';
 import PoemsMenu from './pages/PoemsMenu';
 import ViewPoem from './pages/ViewPoem';
+import ToastsMenu from './pages/ToastsMenu';
+import ViewToast from './pages/ViewToast';
 
 const App: React.FC = () => (
   <IonApp>
@@ -61,6 +63,12 @@ const App: React.FC = () => (
         </Route>
         <Route path="/poem/:id">
            <ViewPoem />
+        </Route>
+        <Route path="/toasts" exact={true}>
+          <ToastsMenu />
+        </Route>
+        <Route path="/toast/:id">
+           <ViewToast />
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>

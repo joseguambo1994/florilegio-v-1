@@ -85,7 +85,7 @@ const HomeMenu: React.FC = () => {
                   Poemas
               </IonLabel>
             </IonItem>
-            <IonItem href="/Brindis">
+            <IonItem href="/toasts">
             <IonLabel>
                   Brindis 
               </IonLabel>
