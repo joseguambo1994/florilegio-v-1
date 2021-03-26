@@ -2,7 +2,7 @@ import { Redirect, Route } from 'react-router-dom';
 import { IonApp, IonRouterOutlet } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import Home from './pages/Home';
-import ViewMessage from './pages/ViewMessage';
+// import ViewMessage from './pages/ViewMessage';
 import ViewAnthem from './pages/ViewAnthem';
 import AnthemsMenu from './pages/AnthemsMenu';
 import HomeMenu from './pages/MainMenu';
@@ -25,6 +25,10 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import SongsMenu from './pages/SongsMenu';
+import ViewSong from './pages/ViewSong';
+import PoemsMenu from './pages/PoemsMenu';
+import ViewPoem from './pages/ViewPoem';
 
 const App: React.FC = () => (
   <IonApp>
@@ -43,11 +47,20 @@ const App: React.FC = () => (
         <Route path="/Himnos" exact={true}>
           <AnthemsMenu />
         </Route>
-        <Route path="/message/:id">
-           <ViewMessage />
-        </Route>
         <Route path="/anthem/:id">
            <ViewAnthem />
+        </Route>
+        <Route path="/songs" exact={true}>
+          <SongsMenu />
+        </Route>
+        <Route path="/song/:id">
+           <ViewSong />
+        </Route>
+        <Route path="/poems" exact={true}>
+          <PoemsMenu />
+        </Route>
+        <Route path="/poem/:id">
+           <ViewPoem />
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>

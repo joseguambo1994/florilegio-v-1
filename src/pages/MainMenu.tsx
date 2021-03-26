@@ -1,6 +1,5 @@
 import MenuListItem from '../components/MenuListItem';
 import { useState } from 'react';
-import { Menu, getMenus } from '../data/menus';
 import {
   IonContent,
   IonHeader,
@@ -21,12 +20,12 @@ import './Home.css';
 
 const HomeMenu: React.FC = () => {
 
-  const [menus, setMenus] = useState<Menu[]>([]);
+  // const [menus, setMenus] = useState<Menu[]>([]);
 
-  useIonViewWillEnter(() => {
-    const currentMenus = getMenus();
-    setMenus(currentMenus);
-  });
+  // useIonViewWillEnter(() => {
+  //   const currentMenus = getMenus();
+  //   setMenus(currentMenus);
+  // });
 
   const refresh = (e: CustomEvent) => {
     setTimeout(() => {
@@ -55,7 +54,7 @@ const HomeMenu: React.FC = () => {
         </IonHeader>
 
         <IonList>
-          {menus.map(m => <MenuListItem key={m.id} menu={m} />)}
+
           <IonItem href="/himnos">
             <IonLabel>
                   índice 
@@ -76,12 +75,12 @@ const HomeMenu: React.FC = () => {
                   Himnos 
               </IonLabel>
             </IonItem>
-            <IonItem href="/Cancionero">
+            <IonItem href="/songs">
             <IonLabel>
                   Cancionero 
               </IonLabel>
             </IonItem>
-            <IonItem href="/Poemas">
+            <IonItem href="/poems">
             <IonLabel>
                   Poemas
               </IonLabel>
