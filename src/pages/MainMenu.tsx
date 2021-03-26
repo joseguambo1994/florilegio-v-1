@@ -10,7 +10,12 @@ import {
   IonRefresherContent,
   IonTitle,
   IonToolbar,
-  useIonViewWillEnter
+  useIonViewWillEnter,
+  IonButton,
+  IonBackButton,
+  IonButtons,
+  IonItem,
+  IonLabel
 } from '@ionic/react';
 import './Home.css';
 
@@ -51,7 +56,45 @@ const HomeMenu: React.FC = () => {
 
         <IonList>
           {menus.map(m => <MenuListItem key={m.id} menu={m} />)}
+          <IonItem href="/himnos">
+            <IonLabel>
+                  índice 
+              </IonLabel>
+            </IonItem>
+            <IonItem href="/himnos">
+            <IonLabel>
+                  Propósito 
+              </IonLabel>
+            </IonItem>
+            <IonItem href="/himnos">
+            <IonLabel>
+                  Historia 
+              </IonLabel>
+            </IonItem>
+            <IonItem href="/Himnos">
+            <IonLabel>
+                  Himnos 
+              </IonLabel>
+            </IonItem>
+            <IonItem href="/Cancionero">
+            <IonLabel>
+                  Cancionero 
+              </IonLabel>
+            </IonItem>
+            <IonItem href="/Poemas">
+            <IonLabel>
+                  Poemas
+              </IonLabel>
+            </IonItem>
+            <IonItem href="/Brindis">
+            <IonLabel>
+                  Brindis 
+              </IonLabel>
+            </IonItem>
         </IonList>
+        <IonButtons>
+            <IonBackButton text="Florilegio" defaultHref="/home"></IonBackButton>
+          </IonButtons>
       </IonContent>
     </IonPage>
   );

@@ -3,6 +3,7 @@ import { IonApp, IonRouterOutlet } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import Home from './pages/Home';
 import ViewMessage from './pages/ViewMessage';
+import ViewAnthem from './pages/ViewAnthem';
 import AnthemsMenu from './pages/AnthemsMenu';
 import HomeMenu from './pages/MainMenu';
 
@@ -32,20 +33,21 @@ const App: React.FC = () => (
         <Route path="/" exact={true}>
           <Redirect to="/home" />
         </Route>
-        {/* <Route path="/home" exact={true}>
-          <MainMenu2 />
-        </Route> */}
+
         <Route exact={true}>
           <HomeMenu />
         </Route>
         <Route path="/home" exact={true}>
-          <AnthemsMenu />
+          <HomeMenu />
         </Route>
-        <Route path="/himnos" exact={true}>
-          <Home />
+        <Route path="/Himnos" exact={true}>
+          <AnthemsMenu />
         </Route>
         <Route path="/message/:id">
            <ViewMessage />
+        </Route>
+        <Route path="/anthem/:id">
+           <ViewAnthem />
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>

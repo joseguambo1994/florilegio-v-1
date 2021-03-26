@@ -11,12 +11,28 @@ const menus: Menu[] = [
   },
   {
     id:2,
-    text: 'Contenido'
+    text: 'Propósito'
   },
   {
     id:3,
-    text: 'Canciones'
+    text: 'Historia'
   },
+  {
+    id:4,
+    text: 'Himnos'
+  },
+  {
+    id:5,
+    text: 'Cancionero'
+  },
+  {
+    id:6,
+    text: 'Poemas'
+  },
+  {
+    id:7,
+    text: 'Brindis'
+  }
 ];
 
 export const getMenus = () => menus;

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Message, getMessage } from '../data/messages';
-import {Menu, getMenu,getMenus} from '../data/menus';
+import {Menu, getMenu,getMenus} from '../data/himnos';
 import MenuListItem from '../components/MenuListItem';
 import {
   IonBackButton,
@@ -24,14 +24,16 @@ import { personCircle } from 'ionicons/icons';
 import { useParams } from 'react-router';
 import './ViewMessage.css';
 import { url } from 'node:inspector';
+import AnthemListItem from '../components/AnthemListItem';
+import { Anthem, getAnthems } from '../data/anthems';
 
 function AnthemsMenu() {
  
-  const [menus, setMenus] = useState<Menu[]>([]);
+  const [anthems, setAnthems] = useState<Anthem[]>([]);
 
   useIonViewWillEnter(() => {
-    const mnus = getMenus();
-    setMenus(mnus);
+    const mnus = getAnthems();
+    setAnthems(mnus);
   });
 
 
@@ -52,7 +54,7 @@ function AnthemsMenu() {
         {/* <IonRefresher slot="fixed" onIonRefresh={refresh}>
           <IonRefresherContent></IonRefresherContent>
         </IonRefresher> */}
-{menus ? (
+
           <>
         <IonHeader collapse="condense">
           <IonToolbar>
@@ -63,12 +65,10 @@ function AnthemsMenu() {
         </IonHeader>
 
         <IonList>
-          {menus.map(m => <MenuListItem key={m.id} menu={m} />)}
+          {anthems.map(element => <AnthemListItem key={element.id} anthem={element} />)}
         </IonList>
         </>
-        ) : (
-          <div>Message not found</div>
-        )}
+     
       </IonContent>
     </IonPage>
   );
