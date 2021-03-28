@@ -57,7 +57,6 @@ function ViewSong() {
         </IonLabel>
       </IonItem>
 
-      {/* <IonImg src={anthem.content} /> */}
       <p>{song.text}</p>
   </div>
           </>

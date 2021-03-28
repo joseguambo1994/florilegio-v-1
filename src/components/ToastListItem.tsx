@@ -16,11 +16,8 @@ const ToastListItem: React.FC<ToastListItemProps> = ({ toast }) => {
       <div slot="start" className="dot dot-unread"></div>
       <IonLabel className="ion-text-wrap">
         <h2>
-          {toast.text}
+          {toast.title}
         </h2>
-        <h3>{toast.content}</h3>
-        <p>
-  </p>
       </IonLabel>
     </IonItem>
   );

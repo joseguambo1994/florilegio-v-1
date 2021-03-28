@@ -48,10 +48,6 @@ function ToastsMenu() {
       
       
       <IonContent fullscreen>
-        {/* <IonRefresher slot="fixed" onIonRefresh={refresh}>
-          <IonRefresherContent></IonRefresherContent>
-        </IonRefresher> */}
-
           <>
         <IonHeader collapse="condense">
           <IonToolbar>
