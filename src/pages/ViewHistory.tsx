@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Anthem, getAnthem } from '../data/anthems';
+import { History, getHistory } from '../data/history';
 import {
   IonBackButton,
   IonButtons,
@@ -16,24 +16,23 @@ import {
 } from '@ionic/react';
 import { personCircle } from 'ionicons/icons';
 import { useParams } from 'react-router';
-import './ViewAnthem.css';
+import './ViewMessage.css';
 import { url } from 'node:inspector';
 
-function ViewAnthem() {
-  const [anthem, setAnthem] = useState<Anthem>();
+function ViewHistory() {
+  const [history, setHistory] = useState<History>();
   const params = useParams<{ id: string }>();
 
   useIonViewWillEnter(() => {
-    const anthm = getAnthem(parseInt(params.id, 10));
-    setAnthem(anthm);
+    const histor = getHistory();
+    setHistory(histor);
   });
-  const ruta: string = "../imagenes/imagen2.png"
   return (
     <IonPage id="view-message-page">
       <IonHeader translucent>
         <IonToolbar>
           <IonButtons>
-            <IonBackButton text="Florilegio" defaultHref="/home"></IonBackButton>
+            <IonBackButton text="Historia" defaultHref="/home"></IonBackButton>
           </IonButtons>
         </IonToolbar>
       </IonHeader>
@@ -41,25 +40,32 @@ function ViewAnthem() {
       
       
       <IonContent fullscreen >
-        {anthem ? (
+        {history ? (
           <>
-          
-          <div className="ion-padding" style={{ 'background': 'url('+anthem.image_path+')','backgroundRepeat':'no-repeat','backgroundAttachment':'fixed' ,'backgroundSize':'100% 100%','backgroundColor':'rgba(0, 0, 0, 0.1)','backgroundPosition':'center'}}>
-      
             <IonItem>
-     
+              {/* <IonIcon icon={personCircle} color="primary"></IonIcon> */}
               <IonLabel className="ion-text-wrap">
                 <h2>
-                  {anthem.title}
-
+                  {history.text}
+                 
                 </h2>
-
+                {/* <h3>
+                  To: <IonNote>Me</IonNote>
+                </h3> */}
               </IonLabel>
             </IonItem>
 
-            {/* <IonImg src={anthem.content} /> */}
-            <p>{anthem.text}</p>
-        </div>
+            <div className="ion-padding" >
+
+              <h1>{history.content}</h1>
+              <p>{history.content}</p>
+       
+
+
+            
+             
+             
+            </div>
           </>
         ) : (
           <div>Message not found</div>
@@ -69,4 +75,4 @@ function ViewAnthem() {
   );
 }
 
-export default ViewAnthem;
+export default ViewHistory;

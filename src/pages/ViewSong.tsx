@@ -43,22 +43,23 @@ function ViewSong() {
       <IonContent fullscreen >
         {song ? (
           <>
-            <IonItem>
-              {/* <IonIcon icon={personCircle} color="primary"></IonIcon> */}
-              <IonLabel className="ion-text-wrap">
-                <h2>
-                  {song.text}
+             
+          <div className="ion-padding" style={{ 'background': 'url('+song.image_path+')','backgroundRepeat':'no-repeat','backgroundAttachment':'fixed' ,'backgroundSize':'100% 100%','backgroundColor':'rgba(0, 0, 0, 0.1)','backgroundPosition':'center'}}>
+      
+      <IonItem>
 
-                </h2>
+        <IonLabel className="ion-text-wrap">
+          <h2>
+            {song.title}
 
-              </IonLabel>
-            </IonItem>
+          </h2>
 
-            <div className="ion-padding" >
-         
-              <h1>{song.content}</h1>
-              <p>{song.content}</p>        
-            </div>
+        </IonLabel>
+      </IonItem>
+
+      {/* <IonImg src={anthem.content} /> */}
+      <p>{song.text}</p>
+  </div>
           </>
         ) : (
           <div>Message not found</div>

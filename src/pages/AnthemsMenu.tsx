@@ -1,6 +1,4 @@
 import { useState } from 'react';
-import { Message, getMessage } from '../data/messages';
-import {Menu, getMenu,getMenus} from '../data/himnos';
 import MenuListItem from '../components/MenuListItem';
 import {
   IonBackButton,

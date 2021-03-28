@@ -19,14 +19,6 @@ import {
 import './Home.css';
 
 const HomeMenu: React.FC = () => {
-
-  // const [menus, setMenus] = useState<Menu[]>([]);
-
-  // useIonViewWillEnter(() => {
-  //   const currentMenus = getMenus();
-  //   setMenus(currentMenus);
-  // });
-
   const refresh = (e: CustomEvent) => {
     setTimeout(() => {
       e.detail.complete();
@@ -55,22 +47,22 @@ const HomeMenu: React.FC = () => {
 
         <IonList>
 
-          <IonItem href="/himnos">
+          <IonItem href="/index">
             <IonLabel>
                   índice 
               </IonLabel>
             </IonItem>
-            <IonItem href="/himnos">
+            <IonItem href="/purpose">
             <IonLabel>
                   Propósito 
               </IonLabel>
             </IonItem>
-            <IonItem href="/himnos">
+            <IonItem href="/history">
             <IonLabel>
                   Historia 
               </IonLabel>
             </IonItem>
-            <IonItem href="/Himnos">
+            <IonItem href="/anthems">
             <IonLabel>
                   Himnos 
               </IonLabel>
@@ -91,9 +83,6 @@ const HomeMenu: React.FC = () => {
               </IonLabel>
             </IonItem>
         </IonList>
-        <IonButtons>
-            <IonBackButton text="Florilegio" defaultHref="/home"></IonBackButton>
-          </IonButtons>
       </IonContent>
     </IonPage>
   );

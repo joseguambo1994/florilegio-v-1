@@ -16,11 +16,9 @@ const SongListItem: React.FC<SongListItemProps> = ({ song }) => {
       <div slot="start" className="dot dot-unread"></div>
       <IonLabel className="ion-text-wrap">
         <h2>
-          {song.text}
+          {song.title}
         </h2>
-        <h3>{song.content}</h3>
-        <p>
-  </p>
+
       </IonLabel>
     </IonItem>
   );

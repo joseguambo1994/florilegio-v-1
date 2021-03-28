@@ -16,9 +16,9 @@ const AnthemListItem: React.FC<AnthemListItemProps> = ({ anthem }) => {
       <div slot="start" className="dot dot-unread"></div>
       <IonLabel className="ion-text-wrap">
         <h2>
-          {anthem.text}
+          {anthem.title}
         </h2>
-        <h3>{anthem.content}</h3>
+        {/* <h3>{anthem.content}</h3> */}
         <p>
   </p>
       </IonLabel>
