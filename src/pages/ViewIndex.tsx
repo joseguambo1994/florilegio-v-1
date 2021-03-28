@@ -46,19 +46,16 @@ function ViewIndex() {
               {/* <IonIcon icon={personCircle} color="primary"></IonIcon> */}
               <IonLabel className="ion-text-wrap">
                 <h2>
-                  {index.text}
+                  {index.title}
                  
                 </h2>
-                {/* <h3>
-                  To: <IonNote>Me</IonNote>
-                </h3> */}
               </IonLabel>
             </IonItem>
 
-            <div className="ion-padding" >
-
-              <h1>{index.content}</h1>
-              <p>{index.content}</p>
+            <div className="ion-padding" style={{ 'background': 'url('+index.image_path+')','backgroundRepeat':'no-repeat','backgroundAttachment':'fixed' ,'backgroundSize':'100% 100%','backgroundColor':'rgba(0, 0, 0, 0.1)','backgroundPosition':'center'}}>
+   
+              <h1>{index.title}</h1>
+              <p>{index.text}</p>
        
 
 

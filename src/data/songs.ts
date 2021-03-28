@@ -10,7 +10,7 @@ export interface Song {
     {
       id:1,
       title: 'El Corralero',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/canciones/el_corralero',
       text: '\
       Está muy malo el corralero\n\
 Allá en el potrero, como viejo está,\n\
@@ -41,7 +41,7 @@ concurso hípico.\
     {
       id:2,
       title: 'Caballeria Blindada Ecuatoriana',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/canciones/caballeria_blindada_ecuatoriana',
       text: '\
       Somos de Caballería blindada\n\
 Arma noble y sin igual\n\
@@ -66,7 +66,7 @@ nos encontremos en asensos, despedidas o bienvenidas\
     {
       id:3,
       title: 'Arma Ligera',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/canciones/arma_ligera',
       text: '\
       Arma ligera que transpone montes,\n\
 Caudal profundo, de valor y gloria,\n\
@@ -97,7 +97,7 @@ del arma.\
     {
       id:4,
       title: 'Himno a San Jorge',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/canciones/himno_a_san_jorge.png',
       text: '\
       CORO\n\
 Adelante valiente San Jorge\n\
@@ -129,7 +129,7 @@ arma.\
     {
       id:5,
       title: '¡Oh! Gallarda Legión Valerosa' ,
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/canciones/oh_gallarda_legion_valerosa.png',
       text: '¡Oh! Gallarda legión valerosa\n\
       De corceles cañones y acción\n\
       Ya la Patria se siente orgullosa\n\

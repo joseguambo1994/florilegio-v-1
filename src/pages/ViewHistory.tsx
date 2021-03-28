@@ -46,7 +46,7 @@ function ViewHistory() {
               {/* <IonIcon icon={personCircle} color="primary"></IonIcon> */}
               <IonLabel className="ion-text-wrap">
                 <h2>
-                  {history.text}
+                  {history.title}
                  
                 </h2>
                 {/* <h3>
@@ -55,10 +55,10 @@ function ViewHistory() {
               </IonLabel>
             </IonItem>
 
-            <div className="ion-padding" >
-
-              <h1>{history.content}</h1>
-              <p>{history.content}</p>
+            <div className="ion-padding" style={{ 'background': 'url('+history.image_path+')','backgroundRepeat':'no-repeat','backgroundAttachment':'fixed' ,'backgroundSize':'100% 100%','backgroundColor':'rgba(0, 0, 0, 0.1)','backgroundPosition':'center'}}>
+      
+              
+              <p>{history.text}</p>
        
 
 

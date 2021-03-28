@@ -34,6 +34,8 @@ import ViewToast from './pages/ViewToast';
 import ViewIndex from './pages/ViewIndex';
 import ViewPurpose from './pages/ViewPurpose';
 import ViewHistory from './pages/ViewHistory';
+import TraditionsMenu from './pages/TraditionsMenu';
+import ViewTradition from './pages/ViewTradition';
 
 const App: React.FC = () => (
   <IonApp>
@@ -72,6 +74,12 @@ const App: React.FC = () => (
         </Route>
         <Route path="/toast/:id">
            <ViewToast />
+        </Route>
+        <Route path="/traditions" exact={true}>
+          <TraditionsMenu />
+        </Route>
+        <Route path="/tradition/:id">
+           <ViewTradition />
         </Route>
         <Route path="/index" exact={true}>
           <ViewIndex />

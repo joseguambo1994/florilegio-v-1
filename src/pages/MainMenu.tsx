@@ -82,6 +82,12 @@ const HomeMenu: React.FC = () => {
                   Brindis 
               </IonLabel>
             </IonItem>
+            <IonItem href="/traditions">
+            <IonLabel>
+                  Cultura y Tradición
+              </IonLabel>
+            </IonItem>
+            
         </IonList>
       </IonContent>
     </IonPage>

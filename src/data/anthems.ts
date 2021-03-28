@@ -10,7 +10,7 @@ export interface Anthem {
     {
       id:1,
       title: 'Himno Nacional del Ecuador',
-      image_path: '/assets/himnos/florilegio_bitmap.png',
+      image_path: '',
       text: '\
       CORO\n\
 ¡Salve, Oh Patria, ¡mil veces! ¡Oh Pátria,\n\
@@ -82,7 +82,7 @@ busque rastro de ser junto a ti.\n\
     {
       id:2,
       title: 'Himno del Ejército',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/himnos/himno_al_ejercito_ecuatoriano.png',
       text:  '\
       CORO\n\
 ¡Gloria, gloria al Ejército nuestro,\n\
@@ -112,7 +112,7 @@ eres gloria, eres vida y raíz.\n\
     {
       id:3,
       title: 'Himno de la Caballeria Blindada Galápagos',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/himnos/himno_al_arma_de_caballeria_blindada.png',
       text: '\
       CORO\n\
 Caballero de yelmo y la coraza,\n\
