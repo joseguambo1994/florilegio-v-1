@@ -43,22 +43,21 @@ function ViewPoem() {
       <IonContent fullscreen >
         {poem ? (
           <>
-            <IonItem>
-              {/* <IonIcon icon={personCircle} color="primary"></IonIcon> */}
-              <IonLabel className="ion-text-wrap">
-                <h2>
-                  {poem.text}
+            <div className="ion-padding" style={{ 'background': 'url('+poem.image_path+')','backgroundRepeat':'no-repeat','backgroundAttachment':'fixed' ,'backgroundSize':'100% 100%','backgroundColor':'rgba(0, 0, 0, 0.1)','backgroundPosition':'center'}}>
+      
+      <IonItem>
 
-                </h2>
+        <IonLabel className="ion-text-wrap">
+          <h2>
+            {poem.title}
 
-              </IonLabel>
-            </IonItem>
+          </h2>
 
-            <div className="ion-padding" >
-         
-              <h1>{poem.content}</h1>
-              <p>{poem.content}</p>        
-            </div>
+        </IonLabel>
+      </IonItem>
+
+      <p>{poem.text}</p>
+  </div>
           </>
         ) : (
           <div>Message not found</div>
