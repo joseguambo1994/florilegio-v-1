@@ -10,7 +10,7 @@ export interface Song {
     {
       id:1,
       title: 'El Corralero',
-      image_path: '/assets/imagenes/canciones/el_corralero',
+      image_path: '/assets/imagenes/canciones/el_corralero.png',
       text: '\
       Está muy malo el corralero\n\
 Allá en el potrero, como viejo está,\n\
@@ -41,7 +41,7 @@ concurso hípico.\
     {
       id:2,
       title: 'Caballeria Blindada Ecuatoriana',
-      image_path: '/assets/imagenes/canciones/caballeria_blindada_ecuatoriana',
+      image_path: '/assets/imagenes/canciones/caballeria_blindada_ecuatoriana.png',
       text: '\
       Somos de Caballería blindada\n\
 Arma noble y sin igual\n\
@@ -66,7 +66,7 @@ nos encontremos en asensos, despedidas o bienvenidas\
     {
       id:3,
       title: 'Arma Ligera',
-      image_path: '/assets/imagenes/canciones/arma_ligera',
+      image_path: '/assets/imagenes/canciones/arma_ligera.png',
       text: '\
       Arma ligera que transpone montes,\n\
 Caudal profundo, de valor y gloria,\n\
@@ -149,7 +149,7 @@ arma.\
     {
       id:6,
       title: 'Himno al Grupo de Caballeria "Yaguachi"',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/canciones/himno_al_grupo_de_caballeria_yaguachi.png',
       text: '\
       A la carga ! gritaban mil voces,\n\
 en Pichincha, en los flancos del monte,\n\
@@ -182,7 +182,7 @@ G.C.M 36 "YAGUACHI".\
     {
       id:7,
       title: 'Cazadores a la Lid',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/canciones/cazadores_a_la_lid.png',
       text: '\
       Somos soldados del Cazadores\n\
 Sin par valientes y decididos;\n\
@@ -229,7 +229,7 @@ en ceremonias especiales en el G.C.M 18\
     {
       id:8,
       title: 'Febres Cordero',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/canciones/febres_cordero.png',
       text: '\
       Nosotros todos somos\n\
 de estas tierras Orenses\n\
@@ -269,8 +269,8 @@ El himno al FEBRES CORDERO se cantará en ceremonias especiales en el G.C.B\
     },
     {
       id:9,
-      title: 'Canción del Subteniente de Caballería Blindada',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      title: 'Canción Del Subteniente De Caballería Blindada',
+      image_path: '/assets/imagenes/canciones/cancion_del_subteniente_de_caballeria_blindada.png',
       text: '\
       Porque quiero tanto la caballería\n\
 porque es arma hermosa que supe elegir\n\
@@ -306,7 +306,7 @@ reuniones sociales y en el bautizo de los Srs. Subtenientes pertenecientes al ar
     {
       id:10,
       title: 'Soldado de Levita',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/canciones/soldado_de_levita.png',
       text: '\
       Soy Soldado de Levita,\n\
 de esos de Caballería,\n\
@@ -327,7 +327,7 @@ La canción SOLDADO DE LEVITA se cantará en reuniones sociales.\n\
     {
       id:11,
       title: 'Bravos del Yaguachi',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/canciones/bravos_del_yaguachi.png',
       text: '\
       Yo soy de caballería\n\
 De esos de bota y espuela (bis)\n\
@@ -355,7 +355,7 @@ La canción BRAVOS DEL YAGUACHI se cantará en reuniones sociales.\
     {
       id:12,
       title: 'Canción al Coronel',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/canciones/cancion_al_coronel.png',
       text: '\
       Que bonito es ser soldado en las puertas del cuartel\n\
 con el fusil en el hombro saludando al coronel (bis)\n\
@@ -387,7 +387,7 @@ La canción AL CORONEL se cantará en reuniones sociales en el onomástico del S
     {
       id:13,
       title: 'Ay Si Me Late',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/canciones/ay_si_me_late.png',
       text: '\
       Ay, si me late, late, late, late, late el corazón\n\
 Me late el corazón, me late el corazón.\n\

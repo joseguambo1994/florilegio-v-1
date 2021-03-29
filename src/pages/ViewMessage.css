@@ -51,6 +51,7 @@
 #view-message-page .ion-padding{
   /* --background: url('../imagenes/imagen2.png');
   background-image: url('../imagenes/imagen2.png'); */
+  min-height: 1000;
 }
 
 #view-message-page .container {

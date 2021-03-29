@@ -10,7 +10,7 @@ export interface Poem {
     {
       id:1,
       title: 'La Esposa Del Soldado',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/poemas/la_esposa_del_soldado.png',
       text: '\
       Yo quiero ahora soltar\n\
 todo el cariño guardado,\n\
@@ -112,7 +112,7 @@ de caballería blindada.\
     {
       id:2,
       title: 'Un General Retirado',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/poemas/un_general_retirado.png',
       text: '\
       Yo quiero ahora soltar\n\
 toEstírate Subteniente,\n\
@@ -213,7 +213,7 @@ caballería blindada.\
     {
       id:3,
       title: 'Seguiré Siendo Soldado',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/poemas/seguire_siendo_soldado.png',
       text: '\
       Sí, señora, ¡soy soldado!\n\
 Con botas y con gorra\n\
@@ -256,7 +256,7 @@ de los Srs. Oficiales y personal de tropa pertenecientes al arma de caballería 
     {
       id:4,
       title: 'Historia De La Caballería Blindada en el Ecuador (Resumen)',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/poemas/historia_de_la_caballeria_blindada_en_el_ecuador_resumen.png',
       text: '\
       Los fastos de la patria, lo escoltaron corceles,\n\
 De espléndidas consignas, de gloriosos\n\
@@ -337,7 +337,7 @@ por parte de los Srs. Subtenientes y Soldados.\
     {
       id:5,
       title: 'Vocación y Herencia',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/poemas/vocacion_y_herencia.png',
       text: '\
       Escarbando en mi memoria\n\
 Halle un viejo sentimiento\n\
@@ -394,7 +394,7 @@ Y serás general después\n\
     {
       id:6,
       title: 'Antología',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/poemas/antologia.png',
       text: '\
       Cuenta la historia de antaño\n\
 Que estos caballos de acero\n\
@@ -431,7 +431,7 @@ clásico del arma por parte de los Srs. Subtenientes y Soldados.\
     {
       id:7,
       title: 'Oración De Un Padre',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/poemas/oracion_de_un_padre.png',
       text: '\
       Dame Oh Señor:\n\
 Un hijo que sea lo bastante fuerte,\n\
