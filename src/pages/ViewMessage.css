@@ -1,3 +1,8 @@
+@font-face {
+  font-family: monotype_corsiva;
+  src: url('../theme/monotype_corsiva.ttf');
+}
+
 #view-message-page ion-item {
   --inner-padding-end: 0;
   --background: transparent;
@@ -38,8 +43,8 @@
 #view-message-page p {
   line-height: 22px;
   text-align: center;
-  content: "\a";
-  white-space: pre;
+  font-weight: bold;
+  font-family: monotype_corsiva;
 }
 
 #view-message-page ion-image {

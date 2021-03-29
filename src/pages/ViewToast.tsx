@@ -42,7 +42,7 @@ function ViewToast() {
       <IonContent fullscreen >
         {toast ? (
           <>
-              <div className="ion-padding" style={{ 'background': 'url('+toast.image_path+')','backgroundRepeat':'no-repeat','backgroundAttachment':'fixed' ,'backgroundSize':'100% 100%','backgroundColor':'rgba(0, 0, 0, 0.1)','backgroundPosition':'center'}}>
+            <div className="ion-padding" style={{ 'background': 'url('+toast.image_path+')','backgroundRepeat':'no-repeat','backgroundAttachment':'fixed' ,'backgroundSize':'100% 100%','backgroundColor':'rgba(0, 0, 0, 0.1)','backgroundPosition':'center','minHeight':'100hv'}}>
       
       <IonItem>
 

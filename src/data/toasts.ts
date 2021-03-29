@@ -10,7 +10,7 @@ export interface Toast {
     {
       id:1,
       title: 'Brindis del Arma de Caballería Blindada',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/brindis_del_jinete.png',
       text: '\
       Brindo dijo un caballero\n\
 Por la mujer que más quiero,\n\
@@ -34,7 +34,7 @@ sociales que se conmemora el día del Arma.\
     {
       id:2,
       title: 'Brindis del Jinete',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/brindis_del_jinete.png',
       text: '\
       Agua limpia y pura,\n\
 Lavadora de trastos y trapos\n\
@@ -64,8 +64,8 @@ realizará en reuniones de camaradería.\
     },
     {
       id:3,
-      title: 'Brindis del Soldado de Caballería',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      title: 'Brindis del Soldado de Caballería Blindada',
+      image_path: '/assets/imagenes/brindis/bridis_del_soldado_de_caballeria_blindada.png',
       text: '\
       Si me pides que haga un brindis\n\
 Por lo que es la Caballería Blindada,\n\
@@ -164,7 +164,7 @@ los soldados moros.\
     {
       id:4,
       title: 'Brindis en Reuniones Sociales',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/brindis_en_reuniones_sociales.png',
       text: '\
       Si me pides que haga un brindis\n\
 Por lo que es la Caballería Blindada,\n\
@@ -263,7 +263,7 @@ los soldados moros.\
     {
       id:5,
       title: 'Brindis del Jefe de Tanque',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/brindis_del_jefe_de_tanque.png',
       text: '\
       Levantemos las copas tanquistas\n\
 Y hagamos con ellas un brindis,\n\
@@ -277,7 +277,7 @@ Y mi parche tricolor....\n\
     {
       id:6,
       title: 'El que bebe ',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/brindis_del_jefe_de_tanque.png',
       text: '\
       El que se emborracha duerme\n\
 El que duerme no peca\n\
@@ -288,7 +288,7 @@ Entonces bebamos para que al cielo vayamos\n\
     {
       id:7,
       title: 'Brindis de Galo Chávez',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/brindis_del_jefe_de_tanque.png',
       text: '\
       Brindo por una mujer,\n\
 No, por la mujer que me arrulló en la cuna.\n\
@@ -302,7 +302,7 @@ Estos brindis se realizarán en reuniones de camaradería.\
     {
       id:8,
       title: 'Brindis del Caballero',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/brindis_del_caballero.png',
       text: '\
       Brindo dijo un caballero\n\
 por la mujer que más quiero,\n\
@@ -317,7 +317,7 @@ arrasa cual huracán.\n\
     {
       id:9,
       title: 'Inolvidales Cabas',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/inolvidables_cabas.png',
       text: '\
       Quisiera pues destapar\n\
 la cubierta de la Historia,\n\
@@ -380,7 +380,7 @@ por su eficiencia en la guerra.\n\
     {
       id:10,
       title: 'Brindis a la Caballería',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/brindis_a_la_caballeria.png',
       text: '\
       Me nace espontáneo como un surtidor\n\
 Me brota del pecho, desnuda frescura\n\
@@ -407,7 +407,7 @@ Para hacer hoguera y alumbrar la Patria.\n\
     {
       id:11,
       title: '"Canto a mi Jaca"',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/canto_a_mi_jaca.png',
       text: '\
       Yo no le canto a mi jaca\n\
 porque salta, porque salta\n\
@@ -442,7 +442,7 @@ que es mi modo de bregar.\n\
     {
       id:12,
       title: '"Auto Sugestión"',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/auto_sugestion.png',
       text: '\
       Vivamos la vida a todo rigor\n\
 galopando sin denuedo hacia la gloria\n\
@@ -501,7 +501,7 @@ si nosotros somos sus Herederos,\n\
     {
       id:13,
       title: 'Rebelde',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/rebelde.png',
       text: '\
       Era alazán el noble\n\
 macizo, de vivos ojos,\n\
@@ -569,7 +569,7 @@ mientras te mira y sonríe\n\
     {
       id:14,
       title: 'Cantares al Viento',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/cantares_al_viento.png',
       text: '\
       Me gusta cantarle al viento\n\
 porque vuelven los cantares\n\
@@ -592,7 +592,7 @@ pos a ver, a ver qué pasa.\n\
     {
       id:15,
       title: 'Soy de Caballería',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/soy_de_caballeria.png',
       text: '\
       Todas las armas comprenden\n\
 que el valor y la decencia\n\
@@ -619,7 +619,7 @@ de ser de caballería.\n\
     {
       id:16,
       title: 'Mi Caballo',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/mi_caballo.png',
       text: '\
       Yo le canto a mi caballo\n\
 porque es noble, sin razón\n\
@@ -651,7 +651,7 @@ mi caballo, mi caballo.\n\
     {
       id:17,
       title: 'Los Caballos',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/los_caballos.png',
       text: '\
       ¡Los caballos eran fuertes!\n\
 ¡Los caballos eran ágiles!\n\
@@ -720,7 +720,7 @@ que es la nube de la gloria, se levanta por los aires…\n\
     {
       id:18,
       title: 'Canción del Cuadro Negro',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/cancion_del_cuadro_negro.png',
       text: '\
       Por sobre todo el mundo está Dios\n\
 y después de El nada, nada, nada….\n\
@@ -737,7 +737,7 @@ y fuera de ellos nada más.\n\
     {
       id:19,
       title: 'Saludo a los Granaderos (Sldos de Caballería)',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/saludo_a_los_granaderos_sldos_de_caballeria.png',
       text: '\
       Granaderos fuertes, jóvenes, viriles,\n\
 con esa arrogancia de los veinte abriles,\n\
@@ -776,7 +776,7 @@ con las esperanzas para el porvenir.\n\
     {
       id:20,
       title: 'El Corralero',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/el_corralero.png',
       text: '\
       Está muy mal el corralero\n\
 allá en el potrero como viejo está,\n\
@@ -805,7 +805,7 @@ cuando se muera de viejo.\n\
     {
       id:21,
       title: 'Himno al Arma de Caballería',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/himno_al_arma_de_caballeria.png',
       text: '\
       CORO\n\
 Oh ¡gallarda legión valerosa,\n\
@@ -860,8 +860,8 @@ y con sangre su nombre escribió\n\
     },
     {
       id:22,
-      title: 'Caballería Ecuatorian',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      title: 'Caballería Ecuatoriana',
+      image_path: '/assets/imagenes/brindis/caballeria_ecuatoriana.png',
       text: '\
       Somos de Caballería\n\
 arma noble y sin igual\n\
@@ -884,7 +884,7 @@ te juramos defender.\n\
     {
       id:23,
       title: 'Arma ligera que transpone Montes',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/arma_ligera_que_transpone_montes.png',
       text: '\
       Arma ligera que transpone montes,\n\
 Caudal profundo, con ardor y gloria,\n\
@@ -912,8 +912,8 @@ Por Ecuador la nuestra mayor gloria.\n\
     },
     {
       id:24,
-      title: 'Conscripto Flores (Flores)',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      title: 'Conscripto Flores (Marcha)',
+      image_path: '/assets/imagenes/brindis/conscripto_flores_marcha.png',
       text: '\
       El clarín soñó, rugió el león\n\
 y soldados ebrios de valor\n\
@@ -940,7 +940,7 @@ las campanas dicen gloria a ti.\n\
     {
       id:25,
       title: 'Raudos Corceles',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/raudos_corceles.png',
       text: '\
       Ya se inquietan los raudos corceles\n\
 que presienten la ronda vivaz\n\
@@ -967,8 +967,8 @@ El caudal de las venas…\n\
     },
     {
       id:26,
-      title: '¡Oh! Gallarda Legion Valeros',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      title: '¡Oh! Gallarda Legion Valerosa',
+      image_path: '/assets/imagenes/brindis/oh_gallarda_legion_valerosa.png',
       text: '\
       Oh! Gallarda legión valerosa\n\
 con corceles pujanza y acción\n\
@@ -987,7 +987,7 @@ en el alma de nuestra Nación.\n\
     {
       id:27,
       title: 'Porque Quiero la Caballería',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/porque_quiero_la_caballeria.png',
       text: '\
       ¿Porqué quiero tanto la caballería?\n\
 porque es arma hermosa que supe elegir.\n\
@@ -1014,7 +1014,7 @@ y si mi caballo me lleva…………\n\
     {
       id:28,
       title: 'Himno de la Caballería N° 13 "YAGUACHI"',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/himno_del_grupo_de_caballeria_no_13_yaguachi.png',
       text: '\
       Salve oh Patria, mil veces oh Patria\n\
 es el himno de triunfos y unión\n\
@@ -1037,7 +1037,7 @@ nuestras lanzas, oh Patria por fin.\n\
     {
       id:29,
       title: 'Homenaje al Arma de Caballería mi Caballo',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/homenaje_al_arma_de_caballeria_mi_caballo.png',
       text: '\
       Es mi caballo un potrillo\n\
 del más hermoso color,\n\
@@ -1140,7 +1140,7 @@ escritas por Rubén Darío.\n\
     {
       id:30,
       title: 'Brindis de Caballería',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/brindis_de_caballeria.png',
       text: '\
       Compañeros, hoy alzamos nuestras copas del recuerdo\n\
 y vibramos al impulso de la vida, del amor\n\
@@ -1179,7 +1179,7 @@ Aquí estamos...Toma el mando, Señor...\n\
     {
       id:31,
       title: 'Caballería',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/caballeria.png',
       text: '\
       Arma de nobles varones,\n\
 nacida para la historia;\n\
@@ -1211,7 +1211,7 @@ que a su vez muera la gloria.\n\
     {
       id:32,
       title: 'Zamba para la Delfina',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/zamba_para_la_delfina.png',
       text: '\
       Novia de pancho Ramírez\n\
 amazona enamorada.\n\
@@ -1239,7 +1239,7 @@ pues somos el pasado que vive en el presente...\n\
     {
       id:33,
       title: 'La Lanza',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/la_lanza.png',
       text: '\
       Es la lanza nuestra historia,\n\
 Sobre una tacuara escrita.\n\
@@ -1272,7 +1272,7 @@ a quienes nos libertaron,\n\
     {
       id:34,
       title: 'Zamba del Vivac',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/la_lanza.png',
       text: '\
       Vibra esta zamba guerrera,\n\
 de azul blanco color.\n\
@@ -1299,7 +1299,7 @@ en las noches de Fortín.\n\
     {
       id:35,
       title: 'Recuerdos de un Granadero',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/recuerdos_de_un_granadero.png',
       text: '\
       Echado atrás en su acero,\n\
 como taura retobado,\n\
@@ -1415,7 +1415,7 @@ con mi sable…¡ y una lanza ¡\n\
     {
       id:36,
       title: 'Polaina Canchera ',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/polaina_canchera.png',
       text: '\
       Polaina "canchera",\n\
 timbre de hidalguía,\n\
@@ -1438,7 +1438,7 @@ Que va cantando la espuela.\n\
     {
       id:37,
       title: 'La Carreta',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/la_carreta.png',
       text: '\
       La paciencia de un barcino,\n\
 le fue formando una huella.\n\
@@ -1459,7 +1459,7 @@ y a veces también fue cuna…\n\
     {
       id:38,
       title: 'Camino del Gualeyan',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/camino_del_gualeyan.png',
       text: '\
       Al tranco de mi corazón,\n\
 despuntando la cuchilla,\n\
@@ -1496,7 +1496,7 @@ por delante la tropilla.\n\
     {
       id:39,
       title: 'Soy de Villegas',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/soy_de_villegas.png',
       text: '\
       Cuando a la lumbre opaca de los rogones,\n\
 se reviven las glorias de las moharras.\n\
@@ -1535,7 +1535,7 @@ Como diciendo también ¡SOY DE VILLEGAS!\n\
     {
       id:40,
       title: 'Adiós a Gualeguaychu',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/adios_a_gualeguaychu.png',
       text: '\
       Llanuras que "galopié" en mi alazán"\n\
 en mi alazán cara blanca.\n\
@@ -1593,7 +1593,7 @@ Abrazarte en tu río.\n\
     {
       id:41,
       title: 'El Irete',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/el_irete.png',
       text: '\
       Para echarlo tierra al pial\n\
 de juro lo hizo un pueblero.\n\
@@ -1614,7 +1614,7 @@ que fue orgullo entre los criollos.\n\
     {
       id:42,
       title: 'Pingos Patrios',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/pingos_patrios.png',
       text: '\
       Tubianos, zainos, rosillos,\n\
 moros, blancos y tostados,\n\
@@ -1660,7 +1660,7 @@ florece mi poesía.\n\
     {
       id:43,
       title: 'Orgullo de Marca',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/orgullo_de_marca.png',
       text: '\
       Al fin te vuelvo a encontrar,\n\
 amigo de aquellos tiempos.\n\
@@ -1699,7 +1699,7 @@ Luna más o luna menos.\n\
     {
       id:44,
       title: 'Sargento Ayudante Veiga',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/sargento_ayudante_veiga.png',
       text: '\
       Para llegar a ser viejo,\n\
 ¡cuánta vida y cuanto viejo!\n\
@@ -1764,7 +1764,7 @@ para brindarla por vos.\n\
     {
       id:45,
       title: 'El Reformado',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/el_reformado.png',
       text: '\
       Aquel pelo zaino oscuro,\n\
 color de la noche pampa,\n\
@@ -1812,8 +1812,8 @@ más que hacerles una Patria? ...\n\
     },
     {
       id:46,
-      title: 'Milonga para un Sargento Herrador',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      title: 'Milonga para un Sargento',
+      image_path: '/assets/imagenes/brindis/milonga_para_un_sargento.png',
       text: '\
       Rasgo más o rasgo menos,\n\
 todos guardaran memoria.\n\
@@ -1971,7 +1971,7 @@ Te traemos nuestros potros.\n\
     {
       id:47,
       title: 'Cuartetas para mi Muerte',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/cuartetas_para_mi_muerte.png',
       text: '\
       Cuando se aplasto mi moro\n\
 no quiero llanto que embarga.\n\
@@ -1990,7 +1990,7 @@ Lo mismo que hoy camaradas.\n\
     {
       id:48,
       title: 'Soneto para los Jóvenes',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/soneto_para_los_jovenes.png',
       text: '\
       ¡A vosotros! Que toda una historia.\n\
 ¡Heredáis! Sobre potros de acero.\n\
@@ -2011,7 +2011,7 @@ El combate local ¡no os atraiga!\n\
     {
       id:49,
       title: 'Himno del Grupo de Escuela de Caballería "YAGUACHI"',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/himno_del_grupo_de_escuela_de_caballeria_yaguachi.png',
       text: '\
       LETRA DE: PABLO HANNIBAL VELA\n\
 MUSICA: PROFESOR ENRIQUE ESPIN Y.\n\
@@ -2052,7 +2052,7 @@ dar sus héroes su sangre ofrendar.\n\
     {
       id:50,
       title: 'Con Sable y Lanza',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/con_sable_y_lanza.png',
       text: '\
       Con sable y lanza batiente\n\
 voy galopando a la muerte\n\
@@ -2083,7 +2083,7 @@ y tu pecho será el escudo que la gloria a de gravar.\n\
     {
       id:51,
       title: 'Febres Cordero',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/febres_cordero.png',
       text: '\
       Nosotros todos somos\n\
 de estas tierras orenses\n\
@@ -2122,7 +2122,7 @@ en el usurpador…\n\
     {
       id:52,
       title: '"Los Pingos del Granaderos"',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/los_pingos_del_granaderos.png',
       text: '\
       En cabancha me contaron y dicen que andan diciendo,\n\
 que se están llevando al sur los Pingos del "Granaderos"\n\
@@ -2164,7 +2164,7 @@ y Yábar y Sofanor vencedores del desierto.\n\
     {
       id:53,
       title: 'Soldado de Levita',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/soldado_de_levita.png',
       text: '\
       Soy soldado de levita\n\
 De esos de caballería\n\
@@ -2194,14 +2194,7 @@ aunque sea cojeando iré.\n\
     {
       id:54,
       title: 'Los Mosos Militares',
-      image_path: '/assets/himnos/florilegio_imagen.png',
-      text: '\
-      '
-    },
-    {
-      id:55,
-      title: 'Remembranzas',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/los_mosos_militares.png',
       text: '\
       Somos los mozos militares\n\
 lo que más nos divertimos\n\
@@ -2239,12 +2232,49 @@ Vas a gritar… vas a gritar…\n\
 sácamelo…Sácamelo…sácamelo….\n\
 el caramelo, sácamelo…Sácamelo….\n\
 El caramelo, el caramelo.\n\
+      '
+    },
+    {
+      id:55,
+      title: 'Remembranzas',
+      image_path: '/assets/imagenes/brindis/remembranzas.png',
+      text: '\
+      Que les parece muchachos lo que viene sucediendo,\n\
+el arma de la hidalguía ya va desapareciendo;\n\
+se apoderan de la fama de los bravos regimientos\n\
+y enarbolan gallardetes sin ningún remordimiento.\n\
+He sabido con espanto que me van a trasladar\n\
+y que en este cuartel viejo todo se va a transformar.\n\
+Romanticismo de antaño; cuacos de mi ensoñación,\n\
+dicen que pasó ese tiempo, que hoy hay mecanización.\n\
+Yo no entiendo y no confundo con esta destinación\n\
+yo sé de sables y lanzas; de la carga y la canción,\n\
+y me ordenan que conduzca un escuadrón a motor\n\
+desafiando los pantanos con gran remolcador.\n\
+El cuerpo se espeluzna y el alma se me acongoja\n\
+al mirar que estos vehículos los conduce quien se antoja.\n\
+Tradición de viaja escuela; jinetes de magna hidalguía\n\
+jamás prestasteis tu espuela, tampoco tu yegua día.\n\
+Qué pena da en los cuarteles, los caucos se están muriendo,\n\
+donde se guardaba el heno ahora hay mantenimiento.\n\
+Hoy vagan por los potreros lanudos tristes y hambrientos\n\
+mientras los motores cantan y resplandecen los fierros.\n\
+Miramos con tristeza la querencia,\n\
+corralones y palenques se destruyen;\n\
+escuchamos con lóbrega amargura:\n\
+los caballos ya no sirven\n\
+yo les daría mi vida si después de combates atrevidos\n\
+los caballos no relinchan sobre hierros retorcidos.\n\
+Caballería inmortal, alma y fuego de los triunfos,\n\
+tradición vivificante de bizarros escuadrones;\n\
+mientras en sueños fecundos y enchapecados de honores\n\
+izamos llenos de gloria nuestros celestes pendones.\n\
 '
     },
     {
       id:56,
       title: 'El Caballo y el Amor',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/brindis/el_caballo_y_el_amor.png',
       text: '\
       "Siempre hay que probar un caballo antes de adquirirlo"\n\
 "Soy dueño de mi caballo….puede ser una\n\
