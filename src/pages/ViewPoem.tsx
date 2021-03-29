@@ -55,8 +55,17 @@ function ViewPoem() {
 
         </IonLabel>
       </IonItem>
+      {poem.text.map(element => <p className="poem-format">{element}</p>  )}
+      <IonItem>
 
-      <p>{poem.text}</p>
+        <IonLabel className="ion-text-wrap">
+          <h2>
+            {poem.indication}
+
+          </h2>
+
+        </IonLabel>
+      </IonItem>
   </div>
           </>
         ) : (
