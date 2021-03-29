@@ -45,8 +45,7 @@
   text-align: center;
   font-weight: bold;
   font-family: monotype_corsiva;
-  color: brown;
-  white-space: initial; 
+  color: rgb(16, 0, 105);
 }
 
 #view-message-page ion-image {
@@ -75,5 +74,12 @@
   padding: 10px;
   overflow: hidden;
   white-space: initial;
-  text-align: justify;
+  text-align: center;
+}
+
+#view-message-page .poem-format{
+  padding: 10px;
+  white-space: pre-line;
+  text-align: center;
+  color: red;
 }

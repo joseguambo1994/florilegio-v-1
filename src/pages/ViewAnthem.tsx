@@ -16,7 +16,7 @@ import {
 } from '@ionic/react';
 import { personCircle } from 'ionicons/icons';
 import { useParams } from 'react-router';
-import './ViewAnthem.css';
+import './ViewMessage.css';
 import { url } from 'node:inspector';
 
 function ViewAnthem() {
@@ -58,7 +58,7 @@ function ViewAnthem() {
             </IonItem>
 
             {/* <IonImg src={anthem.content} /> */}
-            <p>{anthem.text}</p>
+            {anthem.text.map(element => <p className="poem-format">{element}</p>  )}
         </div>
           </>
         ) : (

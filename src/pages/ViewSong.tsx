@@ -57,7 +57,17 @@ function ViewSong() {
         </IonLabel>
       </IonItem>
 
-      <p>{song.text}</p>
+      {song.text.map(element => <p className="poem-format">{element}</p>  )}
+      <IonItem>
+
+        <IonLabel className="ion-text-wrap">
+          <h2>
+            {song.indication}
+
+          </h2>
+
+        </IonLabel>
+      </IonItem>
   </div>
           </>
         ) : (

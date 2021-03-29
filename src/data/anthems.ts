@@ -1,7 +1,7 @@
 export interface Anthem {
     id: number;
     title:string;
-    text: string;
+    text: Array<string>;
     image_path: string;
   }
   
@@ -11,13 +11,15 @@ export interface Anthem {
       id:1,
       title: 'Himno Nacional del Ecuador',
       image_path: '',
-      text: '\
+      text: ['\
       CORO\n\
 ¡Salve, Oh Patria, ¡mil veces! ¡Oh Pátria,\n\
 gloria a ti! Ya tu pecho rebosa\n\
 gozo y paz, y tu frente radiosa\n\
-más que el sol contemplamos lucir.\n\
-I\n\
+más que el sol contemplamos lucir.\
+'
+,
+'I\n\
 Indignados tus hijos del yugo\n\
 que te impuso la ibérica audacia,\n\
 de la injusta y horrenda desgracia\n\
@@ -26,8 +28,10 @@ santa voz a los cielos alzaron,\n\
 voz de noble y sin par juramento,\n\
 de vengarte del monstruo sangriento,\n\
 de romper ese yugo servil.\n\
-¡Salve, Oh Patria...!\n\
-II\n\
+¡Salve, Oh Patria...!\
+' 
+,
+'II\n\
 Cedió al fin la fiereza española,\n\
 y hoy, oh Patria, tu libre existencia\n\
 es la noble y magnífica herencia\n\
@@ -36,7 +40,10 @@ de las manos paternas la hubimos,\n\
 nadie intente arrancárnosla ahora,\n\
 ni nuestra ira excitar vengadora\n\
 quiera, necio o audaz, contra si.\n\
-¡Salve, Oh Patria...!\n\
+¡Salve, Oh Patria...!\
+'
+,
+'\
 III\n\
 Los primeros los hijos del suelo\n\
 que, soberbio, el Pichincha decora\n\
@@ -46,7 +53,9 @@ Dios miró y aceptó el holocausto,\n\
 y esa sangre fue germen fecundo\n\
 de otros héroes que, atónito, el mundo\n\
 vio en tu torno a millares surgir.\n\
-¡Salve, Oh Patria...!\n\
+¡Salve, Oh Patria...!\
+',
+'\
 IV\n\
 De esos héroes el brazo de hierro\n\
 nada tuvo invencible la tierra\n\
@@ -56,7 +65,9 @@ tras la lid la victoria volaba,\n\
 libertad tras el triunfo venía,\n\
 y al león destrozado se oía\n\
 de impotencia y despecho rugir\n\
-¡Salve, Oh Patria...!\n\
+¡Salve, Oh Patria...!\
+',
+'\
 V\n\
 Nadie, oh Patria, lo intente. Las sombras\n\
 de tus héroes gloriosos nos miran\n\
@@ -66,7 +77,9 @@ Venga el hierro y el plomo fulmíneo,\n\
 que a la idea de guerra y venganza\n\
 se despierta la heroica pujanza\n\
 que hizo al fiero español sucumbir.\n\
-¡Salve, Oh Patria...!\n\
+¡Salve, Oh Patria...!\
+',
+'\
 VI\n\
 Y si nuevas cadenas prepara\n\
 la injusticia de bárbara suerte,\n\
@@ -78,17 +91,20 @@ huelle solo cenizas y en vano\n\
 busque rastro de ser junto a ti.\n\
 ¡Salve, Oh Patria...!\n\
 '
-    },
+    ]
+    }
+    ,
     {
       id:2,
       title: 'Himno del Ejército',
       image_path: '/assets/imagenes/himnos/himno_al_ejercito_ecuatoriano.png',
-      text:  '\
+      text:  ['\
       CORO\n\
 ¡Gloria, gloria al Ejército nuestro,\n\
 el gestor de epopeyas y hazañas;\n\
 el que aviva en sus hondas entrañas\n\
-fuego patrio de fe y redención\n\
+fuego patrio de fe y redención\
+','\
 I\n\
 En tus hijos, heroicos soldados\n\
 y en tu ser que es vigor tesonero\n\
@@ -97,7 +113,8 @@ que sustenta tu estirpe viril;\n\
 Quipipán, el Pichincha y Tarqui,\n\
 Panupali, también Porotillo\n\
 y Paquisha, el Cenepa dan brillo\n\
-a tu casta gloriosa e inmortal.\n\
+a tu casta gloriosa e inmortal.\
+','\
 II\n\
 Pues la gesta del Alto Cenepa\n\
 es leyenda y emblema de gloria,\n\
@@ -106,29 +123,33 @@ que resaltan con aire triunfal;\n\
 y por eso la patria te admira,\n\
 en tu fuerza y presencia confía,\n\
 de tu pueblo eres hoy ufanía\n\
-eres gloria, eres vida y raíz.\n\
+eres gloria, eres vida y raíz.\
 '
+    ]
     },
     {
       id:3,
       title: 'Himno de la Caballeria Blindada Galápagos',
       image_path: '/assets/imagenes/himnos/himno_al_arma_de_caballeria_blindada.png',
-      text: '\
+      text: ['\
       CORO\n\
 Caballero de yelmo y la coraza,\n\
 Hombre recio, valiente y muy capaz,\n\
 Honra a tu arma a tu patria y a su emblema\n\
-Siendo siempre un gran profesional.\n\
+Siendo siempre un gran profesional.\
+','\
 I\n\
 Con la historia del hombre tu naciste\n\
 A lo largo del tiempo galopaste\n\
 En los campos de Tapi doblegaste\n\
-Al Fragor de la lucha al Español\n\
+Al Fragor de la lucha al Español\
+','\
 II\n\
 En Pichincha mostraste tu bravura\n\
 Nos dejaste de herencia a Calderón\n\
 El Cedeño el Dragón y el Cazadores\n\
-Son ejemplo de arrojo y corazón\n\
+Son ejemplo de arrojo y corazón\
+','\
 III\n\
 De los bravos del Yaguachi y Panupali\n\
 Guardaremos su espíritu y valor\n\
@@ -137,20 +158,23 @@ Con cualquiera que piense en agresión\n\
 De los bravos del Yaguachi y Panupali\n\
 Guardaremos su espíritu y valor\n\
 Con las bocas de fuego arrasaremos\n\
-Con cualquiera que piense en agresión\n\
+Con cualquiera que piense en agresión\
+','\
 IV\n\
 El cóndor es el nombre de un testigo\n\
 Que miró a sus hombres combatir\n\
 El Perú aprendió que en esa forma\n\
-No podrá nuestra Patria sucumbir\n\
+No podrá nuestra Patria sucumbir\
+','\
 V\n\
 Con tu estirpe de noble caballero\n\
 Con tu ancestro de gran conquistador\n\
 Con la garra pujante de tanquista\n\
 Llenaremos de gloria al Ecuador.\n\
 El himno al arma de Caballería Blindada se entonará en las ceremonias por el día clásico del\n\
-arma de caballería blindada.\n\
+arma de caballería blindada.\
       '
+      ]
     },
   ];
   
