@@ -43,29 +43,33 @@ function ViewHistory() {
         {history ? (
           <>
             <IonItem>
-              {/* <IonIcon icon={personCircle} color="primary"></IonIcon> */}
               <IonLabel className="ion-text-wrap">
                 <h2>
                   {history.title}
                  
                 </h2>
-                {/* <h3>
-                  To: <IonNote>Me</IonNote>
-                </h3> */}
+
               </IonLabel>
             </IonItem>
 
-            <div className="ion-padding" style={{ 'background': 'url('+history.image_path+')','backgroundRepeat':'no-repeat','backgroundAttachment':'fixed' ,'backgroundSize':'100% 100%','backgroundColor':'rgba(0, 0, 0, 0.1)','backgroundPosition':'center'}}>
-      
               
-              <p>{history.text}</p>
-       
+            <div className="ion-padding">
+         
+         {/* <div className="ion-padding" >
+
+         <div className="container">
+         <IonImg className="poemimage" src={message.image_route} ></IonImg>
+           <div className="center"> */}
+           <p className="text-format">{history.text}</p>
+           {/* </div>
+         </div> */}
 
 
-            
-             
-             
-            </div>
+         
+          
+          
+         </div>
+
           </>
         ) : (
           <div>Message not found</div>

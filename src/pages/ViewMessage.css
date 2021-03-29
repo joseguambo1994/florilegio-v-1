@@ -41,10 +41,12 @@
 }
 
 #view-message-page p {
-  line-height: 22px;
+  /* line-height: 22px; */
   text-align: center;
   font-weight: bold;
   font-family: monotype_corsiva;
+  color: brown;
+  white-space: initial; 
 }
 
 #view-message-page ion-image {
@@ -56,7 +58,6 @@
 #view-message-page .ion-padding{
   /* --background: url('../imagenes/imagen2.png');
   background-image: url('../imagenes/imagen2.png'); */
-  min-height: 1000;
 }
 
 #view-message-page .container {
@@ -68,4 +69,11 @@
   top: 0%;
   left: 50%;
    transform: translate(-50%, -0%); 
+}
+
+#view-message-page .text-format{
+  padding: 10px;
+  overflow: hidden;
+  white-space: initial;
+  text-align: justify;
 }

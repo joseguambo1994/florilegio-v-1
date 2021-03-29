@@ -52,7 +52,7 @@ function ViewIndex() {
               </IonLabel>
             </IonItem>
 
-            <div className="ion-padding" style={{ 'background': 'url('+index.image_path+')','backgroundRepeat':'no-repeat','backgroundAttachment':'fixed' ,'backgroundSize':'100% 100%','backgroundColor':'rgba(0, 0, 0, 0.1)','backgroundPosition':'center'}}>
+            {/* <div className="ion-padding" style={{ 'background': 'url('+index.image_path+')','backgroundRepeat':'no-repeat','backgroundAttachment':'fixed' ,'backgroundSize':'100% 100%','backgroundColor':'rgba(0, 0, 0, 0.1)','backgroundPosition':'center'}}> */}
    
               <h1>{index.title}</h1>
               <p>{index.text}</p>
@@ -62,7 +62,7 @@ function ViewIndex() {
             
              
              
-            </div>
+            {/* </div> */}
           </>
         ) : (
           <div>Message not found</div>

@@ -44,7 +44,7 @@ function ViewSong() {
         {song ? (
           <>
              
-          <div className="ion-padding" style={{ 'background': 'url('+song.image_path+')','backgroundRepeat':'no-repeat','backgroundAttachment':'fixed' ,'backgroundSize':'100% 100%','backgroundColor':'rgba(0, 0, 0, 0.1)','backgroundPosition':'center','minHeight':'1000px'}}>
+          <div className="ion-padding" style={{ 'background': 'url('+song.image_path+')','backgroundRepeat':'no-repeat','backgroundAttachment':'fixed' ,'backgroundSize':'100% 100%','backgroundColor':'rgba(0, 0, 0, 0.1)','backgroundPosition':'center','minHeight':'100%'}}>
       
       <IonItem>
 
