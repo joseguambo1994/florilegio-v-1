@@ -30,17 +30,17 @@ function ViewSong() {
   
   return (
     <IonPage id="view-message-page">
-      <IonHeader translucent>
+      <IonHeader translucent className="header-color">
         <IonToolbar>
           <IonButtons>
-            <IonBackButton text="Florilegio" defaultHref="/home"></IonBackButton>
+            <IonBackButton className="title-color" text="Menú de Canciones" defaultHref="/home"></IonBackButton>
           </IonButtons>
         </IonToolbar>
       </IonHeader>
 
       
       
-      <IonContent fullscreen >
+      <IonContent fullscreen className="secondary_view">
         {song ? (
           <>
              
@@ -48,8 +48,8 @@ function ViewSong() {
       
       <IonItem>
 
-        <IonLabel className="ion-text-wrap">
-          <h2>
+        <IonLabel id="title-format">
+          <h2 id="title-format">
             {song.title}
 
           </h2>
@@ -60,8 +60,8 @@ function ViewSong() {
       {song.text.map(element => <p className="poem-format">{element}</p>  )}
       <IonItem>
 
-        <IonLabel className="ion-text-wrap">
-          <h2>
+        <IonLabel className="indication">
+          <h2 id="indication-format">
             {song.indication}
 
           </h2>

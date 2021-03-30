@@ -29,25 +29,25 @@ function ViewToast() {
   });
   return (
     <IonPage id="view-message-page">
-      <IonHeader translucent>
+      <IonHeader translucent className="header-color">
         <IonToolbar>
           <IonButtons>
-            <IonBackButton text="Florilegio" defaultHref="/home"></IonBackButton>
+            <IonBackButton className="title-color" text="Menú de Brindis" defaultHref="/home"></IonBackButton>
           </IonButtons>
         </IonToolbar>
       </IonHeader>
 
       
       
-      <IonContent fullscreen >
+      <IonContent fullscreen className="secondary_view">
         {toast ? (
           <>
             <div className="ion-padding" style={{ 'background': 'url('+toast.image_path+')','backgroundRepeat':'no-repeat','backgroundAttachment':'fixed' ,'backgroundSize':'100% 100%','backgroundColor':'rgba(0, 0, 0, 0.1)','backgroundPosition':'center','minHeight':'100%'}}>
       
       <IonItem>
 
-        <IonLabel className="ion-text-wrap">
-          <h2>
+        <IonLabel className="view-title">
+          <h2 id="title-format">
             {toast.title}
 
           </h2>
@@ -55,7 +55,17 @@ function ViewToast() {
         </IonLabel>
       </IonItem>
 
-      <p>{toast.text}</p>
+      {toast.text.map(element => <p className="poem-format">{element}</p>  )}
+      <IonItem>
+
+        <IonLabel className="indication">
+          <h2 id="indication-format">
+            {toast.indication}
+
+          </h2>
+
+        </IonLabel>
+      </IonItem>
   </div>
           </>
         ) : (

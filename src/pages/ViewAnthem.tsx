@@ -27,20 +27,20 @@ function ViewAnthem() {
     const anthm = getAnthem(parseInt(params.id, 10));
     setAnthem(anthm);
   });
-  const ruta: string = "../imagenes/imagen2.png"
+
   return (
     <IonPage id="view-message-page">
-      <IonHeader translucent>
+      <IonHeader translucent className="header-color">
         <IonToolbar>
           <IonButtons>
-            <IonBackButton text="Florilegio" defaultHref="/home"></IonBackButton>
+            <IonBackButton className="title-color" text="Menú de Himnos" defaultHref="/home"></IonBackButton>
           </IonButtons>
         </IonToolbar>
       </IonHeader>
 
       
       
-      <IonContent fullscreen >
+      <IonContent fullscreen className="secondary_view">
         {anthem ? (
           <>
           
@@ -48,8 +48,8 @@ function ViewAnthem() {
       
             <IonItem>
      
-              <IonLabel className="ion-text-wrap">
-                <h2>
+              <IonLabel className="view-title">
+                <h2 id="title-format">
                   {anthem.title}
 
                 </h2>

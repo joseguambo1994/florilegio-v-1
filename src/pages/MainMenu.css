@@ -1,0 +1,147 @@
+#home-page ion-item {
+    --inner-padding-end: 0;
+    --background: transparent;
+  }
+  
+  #home-page ion-label {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  #home-page ion-label.ion-text-wrap{
+    font-weight: bolder;
+  }
+  
+  #home-page ion-item h2 {
+    font-weight: 600;
+  }
+  
+  #home-page ion-item .date {
+    float: right;
+    align-items: center;
+    display: flex;
+  }
+  
+  #home-page ion-item ion-icon {
+    font-size: 42px;
+    margin-right: 8px;
+  }
+  
+  #home-page ion-item ion-note {
+    font-size: 15px;
+    margin-right: 12px;
+    font-weight: normal;
+  }
+  
+  #home-page h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  #home-page p {
+    line-height: 22px;
+    text-align: center;
+    content: "\a";
+    white-space: pre;
+  }
+  
+  #home-page ion-image {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    opacity: 0.5;
+  }
+  
+  #home-page .ion-padding{
+    /* --background: url('../imagenes/imagen2.png');
+    background-image: url('../imagenes/imagen2.png'); */
+  }
+  
+  #home-page .container {
+    position: relative;
+  }
+  
+  #home-page .center {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+     transform: translate(-50%, -0%); 
+  }
+  #home-page img{
+    font-size: 60px;
+  }
+
+  #home-page ion-content.primary_menu{
+    --ion-background-color: linear-gradient(90deg, rgba(89,180,74,1) 0%, rgba(255,255,255,1) 14%, rgba(134,213,120,1) 54%, rgba(96,166,84,1) 69%, rgba(96,159,85,1) 84%, rgba(96,149,87,1) 100%);
+  }
+  ion-item {
+    --padding-start: 0;
+    --inner-padding-end: 0;
+  }
+  
+  ion-label {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  ion-label {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  
+  ion-item h2 {
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  /* ion-item p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 95%;
+  } */
+  
+  ion-item .date {
+    float: right;
+    align-items: center;
+    display: flex;
+  }
+  
+  ion-item ion-icon {
+    color: #c9c9ca;
+  }
+  
+  ion-item ion-note {
+    font-size: 15px;
+    margin-right: 8px;
+    font-weight: normal;
+  }
+  
+  ion-item ion-note.md {
+    margin-right: 14px;
+  }
+  
+  .dot {
+    display: block;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    align-self: start;
+    margin: 16px 10px 16px 16px;
+  }
+  
+  .dot-unread {
+    background: var(--ion-color-primary);
+  }
+  
+  ion-footer ion-title {
+    font-size: 11px;
+    font-weight: normal;
+  }
+  ion-header.header-color{
+    --ion-background-color:linear-gradient(90deg, rgba(89,180,74,1) 0%, rgba(1,1,1,1) 14%, rgba(134,213,120,1) 54%, rgba(96,166,84,1) 69%, rgba(96,159,85,1) 84%, rgba(96,149,87,1) 100%); 
+  }
+  ion-title.title-color{
+    font-size: xx-large;
+    color: white;
+  }

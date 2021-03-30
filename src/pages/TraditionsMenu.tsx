@@ -37,17 +37,17 @@ function TraditionsMenu() {
 
   return (
     <IonPage id="view-message-page">
-      <IonHeader translucent>
+      <IonHeader translucent className="header-color">
         <IonToolbar>
           <IonButtons>
-            <IonBackButton text="Menu Brindis" defaultHref="/home"></IonBackButton>
+            <IonBackButton className="title-color" text="Menú Principal" defaultHref="/home"></IonBackButton>
           </IonButtons>
         </IonToolbar>
       </IonHeader>
 
       
       
-      <IonContent fullscreen>
+      <IonContent fullscreen className="secondary_menu">
           <>
         <IonHeader collapse="condense">
           <IonToolbar>

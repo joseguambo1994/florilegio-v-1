@@ -15,6 +15,7 @@
 
 #view-message-page ion-item h2 {
   font-weight: 600;
+
 }
 
 #view-message-page ion-item .date {
@@ -42,10 +43,10 @@
 
 #view-message-page p {
   /* line-height: 22px; */
-  text-align: center;
+  text-align: justify;
   font-weight: bold;
   font-family: monotype_corsiva;
-  color: rgb(16, 0, 105);
+  color: black;
 }
 
 #view-message-page ion-image {
@@ -74,12 +75,59 @@
   padding: 10px;
   overflow: hidden;
   white-space: initial;
-  text-align: center;
 }
 
 #view-message-page .poem-format{
   padding: 10px;
   white-space: pre-line;
   text-align: center;
-  color: red;
+  color: black;
+}
+#view-message-page ion-content.secondary_view{
+  /* --ion-background-color: var(--ion-color-secondary-contrast);  */
+  --ion-background-color:linear-gradient(90deg, rgba(103,169,250,1) 0%, rgba(255,255,255,1) 10%, rgba(255,255,255,1) 91%, rgba(103,169,250,1) 100%);
+}
+/* #view-message-page ion-content.secondary_view.view_background{
+  background:red;
+} */
+#view-message-page ion-content.secondary_menu{
+  --ion-background-color: linear-gradient(90deg, rgba(89,180,74,1) 0%, rgba(255,255,255,1) 14%, rgba(134,213,120,1) 54%, rgba(96,166,84,1) 69%, rgba(96,159,85,1) 84%, rgba(96,149,87,1) 100%);
+}
+
+#view-message-page ion-label.view-title{
+  text-align: center;
+  font-weight: 900;
+  color: crimson;
+}
+#view-message-page ion-label.view-title{
+  text-align: center;
+  font-weight: 900;
+  color: crimson;
+}
+#view-message-page ion-label.indication{
+  font-weight: bolder;
+  padding: 10px;
+  overflow: hidden;
+  white-space: initial;
+  text-align: justify;
+}
+#indication-format{
+  text-align: center;
+  font-weight: 900;
+  font-size: x-small;
+  color: #000000;
+}
+#title-format{
+  text-align: center;
+  font-weight: 900;
+  font-size: x-large;
+  color: #232ba8;
+  text-shadow: 0 0 10px #ffffff, 0 0 2px #000000;
+}
+ion-header.header-color{
+  --ion-background-color:linear-gradient(90deg, rgba(89,180,74,1) 0%, rgba(1,1,1,1) 14%, rgba(134,213,120,1) 54%, rgba(96,166,84,1) 69%, rgba(96,159,85,1) 84%, rgba(96,149,87,1) 100%); 
+}
+ion-back-button.title-color{
+  font-size: large;
+  color: white;
 }

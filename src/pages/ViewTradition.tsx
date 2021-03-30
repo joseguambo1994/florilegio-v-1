@@ -30,21 +30,21 @@ function ViewTradition() {
 
   return (
     <IonPage id="view-message-page">
-      <IonHeader translucent>
+      <IonHeader translucent className="header-color">
         <IonToolbar>
           <IonButtons>
-            <IonBackButton text="Florilegio" defaultHref="/home"></IonBackButton>
+            <IonBackButton className="title-color" text="Menú de Cultura y Tradición" defaultHref="/home"></IonBackButton>
           </IonButtons>
         </IonToolbar>
       </IonHeader>
 
       
       
-      <IonContent fullscreen >
+      <IonContent fullscreen className="secondary_view" >
         {tradition ? (
           <>
             <IonItem>
-              <IonLabel className="ion-text-wrap">
+              <IonLabel className="view-title">
                 <h2>
                   {tradition.title}
                 </h2>

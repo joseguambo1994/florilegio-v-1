@@ -16,7 +16,8 @@ import {
   IonItem,
   IonLabel
 } from '@ionic/react';
-import './Home.css';
+
+import './MainMenu.css'
 
 const HomeMenu: React.FC = () => {
   const refresh = (e: CustomEvent) => {
@@ -27,12 +28,12 @@ const HomeMenu: React.FC = () => {
 
   return (
     <IonPage id="home-page">
-      <IonHeader>
+      <IonHeader className="header-color">
         <IonToolbar>
-          <IonTitle>Florilegio</IonTitle>
+          <IonTitle className="title-color">Florilegio</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
+      <IonContent fullscreen className="primary_menu">
         <IonRefresher slot="fixed" onIonRefresh={refresh}>
           <IonRefresherContent></IonRefresherContent>
         </IonRefresher>
@@ -48,42 +49,50 @@ const HomeMenu: React.FC = () => {
         <IonList>
 
           <IonItem href="/index">
-            <IonLabel>
-                  índice 
+              <div slot="start" className="dot dot-unread"></div>
+            <IonLabel className="ion-text-wrap">
+                  Índice 
               </IonLabel>
             </IonItem>
             <IonItem href="/purpose">
-            <IonLabel>
+              <div slot="start" className="dot dot-unread"></div>
+            <IonLabel className="ion-text-wrap">
                   Propósito 
               </IonLabel>
             </IonItem>
             <IonItem href="/history">
-            <IonLabel>
+              <div slot="start" className="dot dot-unread"></div>
+            <IonLabel className="ion-text-wrap">
                   Historia 
               </IonLabel>
             </IonItem>
             <IonItem href="/anthems">
-            <IonLabel>
+            <div slot="start" className="dot dot-unread"></div>
+            <IonLabel className="ion-text-wrap">
                   Himnos 
               </IonLabel>
             </IonItem>
             <IonItem href="/songs">
-            <IonLabel>
+            <div slot="start" className="dot dot-unread"></div>
+            <IonLabel className="ion-text-wrap">
                   Cancionero 
               </IonLabel>
             </IonItem>
             <IonItem href="/poems">
-            <IonLabel>
+            <div slot="start" className="dot dot-unread"></div>
+            <IonLabel className="ion-text-wrap">
                   Poemas
               </IonLabel>
             </IonItem>
             <IonItem href="/toasts">
-            <IonLabel>
+            <div slot="start" className="dot dot-unread"></div>
+            <IonLabel className="ion-text-wrap">
                   Brindis 
               </IonLabel>
             </IonItem>
             <IonItem href="/traditions">
-            <IonLabel>
+            <div slot="start" className="dot dot-unread"></div>
+            <IonLabel className="ion-text-wrap">
                   Cultura y Tradición
               </IonLabel>
             </IonItem>

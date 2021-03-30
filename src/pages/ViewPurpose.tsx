@@ -29,10 +29,10 @@ function ViewPurpose() {
   });
   return (
     <IonPage id="view-message-page">
-      <IonHeader translucent>
+      <IonHeader translucent className="header-color">
         <IonToolbar>
           <IonButtons>
-            <IonBackButton text="Propósito" defaultHref="/home"></IonBackButton>
+            <IonBackButton className="title-color" text="Menú Principal" defaultHref="/home"></IonBackButton>
           </IonButtons>
         </IonToolbar>
       </IonHeader>
@@ -40,13 +40,15 @@ function ViewPurpose() {
       
       
      
-      <IonContent fullscreen >
+      <IonContent fullscreen className="secondary_view">
         {purpose ? (
           <>
+         <div className="ion-padding" style={{ 'background': 'url('+purpose.image_path+')','backgroundRepeat':'no-repeat','backgroundAttachment':'fixed' ,'backgroundSize':'100% 100%','backgroundColor':'rgba(0, 0, 0, 0.1)','backgroundPosition':'center'}}>
+      
             <IonItem>
         
-              <IonLabel className="ion-text-wrap">
-                <h2>
+              <IonLabel className="view-title">
+                <h2 id="title-format">
                   {purpose.title}
                 </h2>
               </IonLabel>
@@ -60,6 +62,7 @@ function ViewPurpose() {
              
 {/*              
             </div> */}
+            </div>
           </>
         ) : (
           <div>Tradition not found</div>

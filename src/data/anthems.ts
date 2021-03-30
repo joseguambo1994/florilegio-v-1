@@ -10,7 +10,7 @@ export interface Anthem {
     {
       id:1,
       title: 'Himno Nacional del Ecuador',
-      image_path: '',
+      image_path: '/assets/imagenes/himnos/himno_nacional_del_ecuador.png',
       text: ['\
       CORO\n\
 ¡Salve, Oh Patria, ¡mil veces! ¡Oh Pátria,\n\

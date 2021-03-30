@@ -30,17 +30,17 @@ function ViewPoem() {
   
   return (
     <IonPage id="view-message-page">
-      <IonHeader translucent>
+      <IonHeader translucent className="header-color">
         <IonToolbar>
           <IonButtons>
-            <IonBackButton text="Florilegio" defaultHref="/home"></IonBackButton>
+            <IonBackButton className="title-color" text="Menú de Poemas" defaultHref="/home"></IonBackButton>
           </IonButtons>
         </IonToolbar>
       </IonHeader>
 
       
       
-      <IonContent fullscreen >
+      <IonContent fullscreen className="secondary_view">
         {poem ? (
           <>
             <div className="ion-padding" style={{ 'background': 'url('+poem.image_path+')','backgroundRepeat':'no-repeat','backgroundAttachment':'fixed' ,'backgroundSize':'100% 100%','backgroundColor':'rgba(0, 0, 0, 0.1)','backgroundPosition':'center'}}>
@@ -48,7 +48,7 @@ function ViewPoem() {
       <IonItem>
 
         <IonLabel className="ion-text-wrap">
-          <h2>
+          <h2 id="title-format">
             {poem.title}
 
           </h2>
@@ -58,8 +58,8 @@ function ViewPoem() {
       {poem.text.map(element => <p className="poem-format">{element}</p>  )}
       <IonItem>
 
-        <IonLabel className="ion-text-wrap">
-          <h2>
+        <IonLabel className="indication">
+          <h2 id="indication-format">
             {poem.indication}
 
           </h2>

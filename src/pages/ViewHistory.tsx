@@ -29,22 +29,22 @@ function ViewHistory() {
   });
   return (
     <IonPage id="view-message-page">
-      <IonHeader translucent>
+      <IonHeader translucent className="header-color">
         <IonToolbar>
           <IonButtons>
-            <IonBackButton text="Historia" defaultHref="/home"></IonBackButton>
+            <IonBackButton className="title-color" text="Menú Principal" defaultHref="/home"></IonBackButton>
           </IonButtons>
         </IonToolbar>
       </IonHeader>
 
       
       
-      <IonContent fullscreen >
+      <IonContent fullscreen className="secondary_view" >
         {history ? (
           <>
             <IonItem>
-              <IonLabel className="ion-text-wrap">
-                <h2>
+              <IonLabel className="view-title">
+                <h2 id="title-format">
                   {history.title}
                  
                 </h2>
@@ -55,16 +55,9 @@ function ViewHistory() {
               
             <div className="ion-padding">
          
-         {/* <div className="ion-padding" >
-
-         <div className="container">
-         <IonImg className="poemimage" src={message.image_route} ></IonImg>
-           <div className="center"> */}
-           <p className="text-format">{history.text}</p>
-           {/* </div>
-         </div> */}
-
-
+              <img src={history.image_path}/>
+            {history.text.map(m => <p className="text-format">{m}</p>  )}
+         
          
           
           

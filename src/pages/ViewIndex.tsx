@@ -29,23 +29,24 @@ function ViewIndex() {
   });
   return (
     <IonPage id="view-message-page">
-      <IonHeader translucent>
+      <IonHeader translucent className="header-color">
         <IonToolbar>
           <IonButtons>
-            <IonBackButton text="Índice" defaultHref="/home"></IonBackButton>
+            <IonBackButton className="title-color" text="Menú Principal" defaultHref="/home"></IonBackButton>
           </IonButtons>
         </IonToolbar>
       </IonHeader>
 
       
       
-      <IonContent fullscreen >
+      <IonContent fullscreen className="secondary_view">
         {index ? (
           <>
+          
             <IonItem>
               {/* <IonIcon icon={personCircle} color="primary"></IonIcon> */}
-              <IonLabel className="ion-text-wrap">
-                <h2>
+              <IonLabel className="view-title">
+                <h2 id="title-format">
                   {index.title}
                  
                 </h2>
@@ -55,7 +56,7 @@ function ViewIndex() {
             {/* <div className="ion-padding" style={{ 'background': 'url('+index.image_path+')','backgroundRepeat':'no-repeat','backgroundAttachment':'fixed' ,'backgroundSize':'100% 100%','backgroundColor':'rgba(0, 0, 0, 0.1)','backgroundPosition':'center'}}> */}
    
               <h1>{index.title}</h1>
-              <p>{index.text}</p>
+              <p className="poem-format">{index.text}</p>
        
 
 

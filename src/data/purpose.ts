@@ -10,7 +10,7 @@ export interface Purpose {
     {
       id:1,
       title: 'Propósito',
-      image_path: '/assets/himnos/florilegio_imagen.png',
+      image_path: '/assets/imagenes/propositos/proposito.png',
       text : [
         '      El tiempo que todo lo descubre y lo rebela, también suele erosionar, deformar y aun destruir.\
         Las tradiciones no escapan a este deterioro, muy por el contrario; y ello ha venido ocurriendo\
