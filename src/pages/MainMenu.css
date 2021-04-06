@@ -72,7 +72,7 @@
   }
 
   #home-page ion-content.primary_menu{
-    --ion-background-color: linear-gradient(90deg, rgba(89,180,74,1) 0%, rgba(255,255,255,1) 14%, rgba(134,213,120,1) 54%, rgba(96,166,84,1) 69%, rgba(96,159,85,1) 84%, rgba(96,149,87,1) 100%);
+    --ion-background-color: linear-gradient(90deg, rgba(107,126,181,1) 0%, rgba(159,182,248,1) 5%, rgba(255,255,255,1) 16%, rgba(159,182,248,1) 52%, rgba(107,126,181,1) 100%);
   }
   ion-item {
     --padding-start: 0;
@@ -139,7 +139,7 @@
     font-weight: normal;
   }
   ion-header.header-color{
-    --ion-background-color:linear-gradient(90deg, rgba(89,180,74,1) 0%, rgba(1,1,1,1) 14%, rgba(134,213,120,1) 54%, rgba(96,166,84,1) 69%, rgba(96,159,85,1) 84%, rgba(96,149,87,1) 100%); 
+    --ion-background-color:linear-gradient(90deg, rgba(107,126,181,1) 0%, rgba(42,53,83,1) 6%, rgba(0,0,0,1) 16%, rgba(159,182,248,1) 52%, rgba(107,126,181,1) 100%);
   }
   ion-title.title-color{
     font-size: xx-large;

@@ -39,7 +39,7 @@ function ViewIndex() {
 
       
       
-      <IonContent fullscreen className="secondary_view">
+      <IonContent fullscreen className="secondary_view traditions">
         {index ? (
           <>
           

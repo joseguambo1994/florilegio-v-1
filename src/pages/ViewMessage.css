@@ -85,13 +85,17 @@
 }
 #view-message-page ion-content.secondary_view{
   /* --ion-background-color: var(--ion-color-secondary-contrast);  */
-  --ion-background-color:linear-gradient(90deg, rgba(103,169,250,1) 0%, rgba(255,255,255,1) 10%, rgba(255,255,255,1) 91%, rgba(103,169,250,1) 100%);
+  --ion-background-color:white;
+}
+#view-message-page ion-content.secondary_view.traditions{
+  /* --ion-background-color: var(--ion-color-secondary-contrast);  */
+  --ion-background-color:linear-gradient(90deg, rgba(107,126,181,1) 0%, rgba(159,182,248,1) 2%, rgba(255,255,255,1) 5%, rgba(255,255,255,1) 95%, rgba(159,182,248,1) 98%, rgba(107,126,181,1) 100%);
 }
 /* #view-message-page ion-content.secondary_view.view_background{
   background:red;
 } */
 #view-message-page ion-content.secondary_menu{
-  --ion-background-color: linear-gradient(90deg, rgba(89,180,74,1) 0%, rgba(255,255,255,1) 14%, rgba(134,213,120,1) 54%, rgba(96,166,84,1) 69%, rgba(96,159,85,1) 84%, rgba(96,149,87,1) 100%);
+  --ion-background-color: linear-gradient(90deg, rgba(107,126,181,1) 0%, rgba(159,182,248,1) 5%, rgba(255,255,255,1) 16%, rgba(159,182,248,1) 52%, rgba(107,126,181,1) 100%);
 }
 
 #view-message-page ion-label.view-title{

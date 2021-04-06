@@ -40,12 +40,12 @@ function ViewTradition() {
 
       
       
-      <IonContent fullscreen className="secondary_view" >
+      <IonContent fullscreen className="secondary_view traditions" >
         {tradition ? (
           <>
             <IonItem>
               <IonLabel className="view-title">
-                <h2>
+                <h2 id="title-format">
                   {tradition.title}
                 </h2>
               </IonLabel>

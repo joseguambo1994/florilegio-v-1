@@ -68,7 +68,7 @@ Te juramos defender.'
     ]
     ,
     indication: 'La canción de la Caballería Blindada Ecuatoriana se cantará en reuniones sociales, cuando\
-    nos encontremos en asensos, despedidas o bienvenidas\
+    nos encontremos en ascensos, despedidas o bienvenidas\
     '
     },
     {

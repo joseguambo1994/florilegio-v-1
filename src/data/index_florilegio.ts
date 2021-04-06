@@ -10,10 +10,9 @@ export interface Index {
   
     {
       id:1,
-      title: 'índice',
+      title: 'Índice',
       image_path: '/assets/himnos/florilegio_imagen.png',
       text: '\
-      Índice 2\n\
 Propósito 3\n\
 Historia 4,5,6\n\
 Himnos\n\

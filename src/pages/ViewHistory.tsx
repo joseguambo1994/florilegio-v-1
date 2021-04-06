@@ -39,7 +39,7 @@ function ViewHistory() {
 
       
       
-      <IonContent fullscreen className="secondary_view" >
+      <IonContent fullscreen className="secondary_view traditions" >
         {history ? (
           <>
             <IonItem>
@@ -55,9 +55,9 @@ function ViewHistory() {
               
             <div className="ion-padding">
          
-              <img src={history.image_path}/>
+             
             {history.text.map(m => <p className="text-format">{m}</p>  )}
-         
+            <img src={history.image_path}/>
          
           
           
