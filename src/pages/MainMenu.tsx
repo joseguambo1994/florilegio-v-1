@@ -48,12 +48,7 @@ const HomeMenu: React.FC = () => {
 
         <IonList>
 
-          <IonItem href="/index">
-              <div slot="start" className="dot dot-unread"></div>
-            <IonLabel className="ion-text-wrap">
-                  Índice 
-              </IonLabel>
-            </IonItem>
+          
             <IonItem href="/purpose">
               <div slot="start" className="dot dot-unread"></div>
             <IonLabel className="ion-text-wrap">
